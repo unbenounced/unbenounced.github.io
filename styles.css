@@ -1,5 +1,13 @@
+* {
+  --main-font: font-family:'Roboto', sans-serif;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
+}
+
+html {
+  font-family: var(--main-font);
 }
 
 img {

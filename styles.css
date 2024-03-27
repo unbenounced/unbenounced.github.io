@@ -41,6 +41,7 @@
 body {
   font-family: var(--main-font);
   margin: 0;
+  line-height: 1.4;
 }
 
 img {
@@ -48,5 +49,29 @@ img {
 }
 
 h1 {
+  font-size: 1.2rem;
   font-weight: 700;
+  padding: 1.12em 0;
+}
+
+p {
+  font-size: .8rem;
+  padding: 10px 0 20px;
+  line-height: 1.2;
+}
+
+.container {
+  text-align: center;
+}
+
+.blog {
+  max-width: 290px;
+  margin: 0 auto;
+  padding: 15px;
+  border-radius: 10px;
+  transition: box-shadow 1s;
+}
+
+.blog:hover {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }

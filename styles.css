@@ -248,6 +248,7 @@ p {
   flex-wrap: nowrap;
   overflow-x: hidden;
   overflow-x: auto;
+  padding: 10px 0;
 }
 
 .row::-webkit-scrollbar {
@@ -263,67 +264,3 @@ p {
   width: 0px;
   background: transparent;
 }
-
-/* Scrolling wrapper attempt */
-/* .scrolling-wrapper-flexbox {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: auto;
-}
-
-.scrolling-wrapper-flexbox .blog  {
-  flex: 0 0 auto;
-  margin-right: 3px;
-}
-
-.scrolling-wrapper-flexbox {
-  height: 300px;
-  margin-bottom: 20px;
-  width: 100%;
-}
-
-.scrolling-wrapper-flexbox::-webkit-scrollbar {
-  display: none;
-}
-
-.scrolling-wrapper-flexbox {
-  -webkit-overflow-scrolling: touch;
-}
-
-
-.whiskey-cards {
-  display: flex;
-  flex-wrap: nowrap;
-  overflow-x: scroll;
-  -webkit-overflow-scrolling: touch;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-
-  padding: 48px 48px 48px 48px;
-
-}
-.whiskey-cards::-webkit-scrollbar {
-  -webkit-appearance: none;
-  width: 5px;
-  height: 5px;
-}
-.whiskey-cards::-webkit-scrollbar-thumb {
-  border-radius: 0;
-  background-color: rgba(0, 0, 0, .5);
-  background: linear-gradient(90deg, #02bcf5, #0073e6, #003ab9, #635bff);
-  box-shadow: 0 0 1px rgba(255, 255, 255, .5);
-  border-radius: 16px;
-  opacity: .5;
-}
-.whiskey-cards:hover::-webkit-scrollbar-thumb {
-  opacity: 1;
-}
-
-.HoverArrow__linePath {
-  opacity: var(--arrowLineOpacity);
-  transition: opacity var(--hoverTransition,var(--arrowHoverTransition));
-}
-.HoverArrow__tipPath {
-  transform: var(--arrowTipTransform);
-  transition: transform var(--hoverTransition,var(--arrowHoverTransition));
-} */
